@@ -39,7 +39,7 @@
 - nano /var/www/html/app/Exceptions/Handler.php
 
 Change a:
-
+```php
 <?php
 
 namespace App\Exceptions;
