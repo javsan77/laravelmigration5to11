@@ -44,7 +44,7 @@ Change a:
 
 namespace App\Exceptions;
 
-#### use Throwable;
+use Throwable;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
