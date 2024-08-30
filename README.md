@@ -24,7 +24,7 @@
 -  composer update
 ## Update to Laravel 7:
 - In composer.json, add "laravel/ui": "^2.4" and modify "laravel/framework": "^7.0. This way:
-
+```json
     "require": {
         "php": "^7.1.3",
         "barryvdh/laravel-cors": "^1.0",
@@ -35,7 +35,7 @@
         "laravel/ui": "^2.4",
         "muhamadrezaar/highcharts": "dev-master"
     },
-
+```
 - nano /var/www/html/app/Exceptions/Handler.php
 
 Change a:
