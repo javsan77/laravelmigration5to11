@@ -38,6 +38,10 @@
 
 - nano /var/www/html/app/Exceptions/Handler.php
 
+Change a:
+
+<?php
+
 namespace App\Exceptions;
 
 #### use Throwable;
