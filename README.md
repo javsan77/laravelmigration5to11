@@ -249,7 +249,7 @@ protected $middleware = [
 
 ## Set online app:
 - Create .htaccess on root directory with this content (for public folder is set correctly and jquery load ok):
-====
+```apache
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
@@ -275,7 +275,7 @@ protected $middleware = [
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
-=====
+```
 - su
 - sudo chown -Rfv apache:apache .
 - getenforce -> Permissive
