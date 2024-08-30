@@ -37,11 +37,10 @@
     },
 
 - nano /var/www/html/app/Exceptions/Handler.php
-<?php
 
 namespace App\Exceptions;
 
-use Throwable;
+#### use Throwable;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
@@ -89,6 +88,10 @@ class Handler extends ExceptionHandler
     }
 }
 
+- composer remove illuminate/support laravel/tinker nunomaduro/collision
+- composer install
+
+*******************************
 
 
 
