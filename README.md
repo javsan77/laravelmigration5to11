@@ -98,12 +98,17 @@ class Handler extends ExceptionHandler
 ```
 - composer remove illuminate/support laravel/tinker nunomaduro/collision
 - composer install
-
-*******************************
-
-
-
-
+## Update to Laravel 8:
+- rm composer.lock
+- rm -rf vendor
+- in composer.json:
+```json
+"require": {
+    "laravel/ui": "^3.0"
+}
+```
+- composer update
+- composer install
 ## Installation of PHP 8.2
   - dnf module disable php
   - dnf remove php\*
@@ -114,8 +119,7 @@ class Handler extends ExceptionHandler
   - dnf install @php:8.2
   - php -v
   - dnf install php php-cli php-fpm php-mysqlnd php-opcache php-xml php-gd php-mbstring php-json php-common
-  
-# Install Git
-  yum install git
+  - yum install git
+  - 
   
  
