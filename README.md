@@ -15,12 +15,14 @@
 - It was updated to version 5.8 (it was found vulnerabilities)
 ## Update to Laravel 6:
 - nano composer.json
+  ```json
   "require":{
      "php":"^7.2",
      "fideloper/proxy":"^4.2",
      "laravel/framework":"^6.0",
      "laravel/tinker":"^1.0"
    }
+  ```
 -  composer update
 ## Update to Laravel 7:
 - In composer.json, add "laravel/ui": "^2.4" and modify "laravel/framework": "^7.0. This way:
