@@ -92,7 +92,8 @@ class Handler extends ExceptionHandler
     }
 }
 
-?>
+`?>`
+
 - composer remove illuminate/support laravel/tinker nunomaduro/collision
 - composer install
 
